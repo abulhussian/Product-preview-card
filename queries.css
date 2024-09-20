@@ -1,0 +1,49 @@
+@media (max-width:375px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+   
+   
+    .product-card{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .image img{
+        height: 320px;
+        grid-row: 1;
+        
+    }
+    .image{
+        margin-bottom:5px ;
+        margin-top: 5px;
+
+    }
+    .container{
+        padding-right:  150px;
+        padding-bottom: 150px;
+    
+       
+
+
+    }
+    .subheading{
+        margin-bottom: 20px;
+    }
+    .Heading{
+        margin-bottom: 20px;
+
+    }
+    .text{
+        width: 250px;
+        margin-bottom: 20px;
+
+    }
+    .price{
+        margin-bottom: 20px;
+        
+    }
+   
+}
